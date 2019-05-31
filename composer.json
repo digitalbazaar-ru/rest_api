@@ -1,0 +1,22 @@
+{
+  "name": "digitalbazaar-ru/rest_api",
+  "description": "RestApi client on guzzle",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "digitalbazaar.ru",
+      "email": "helpdesk@digitalbazaar.ru"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "DigitalBazaar\\RestApi\\": ""
+    }
+  },
+  "require": {
+    "illuminate/support": "^5.4",
+    "guzzlehttp/guzzle": "^6.3",
+    "monolog/monolog": "1.19.*"
+  }
+}
